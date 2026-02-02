@@ -1,4 +1,4 @@
-
+"use client"
 const Home = () => {
   return (
     <>
@@ -7,7 +7,7 @@ const Home = () => {
       </h1>
       <button
         className="bg-amber-400 text-black p-5"
-        // onClick={() => alert("hii")}
+        onClick={() => alert("hii")}
       >
         Click Me
       </button>
